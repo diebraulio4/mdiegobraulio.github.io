@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <link rel="stylesheet" href="../ccss/estilo.css">
+    </head>
+    <body>
+    <header>
+    <style>
+    body{
+        margin:0;
+        background: linear-gradient(#598392, #4a4e69);
+        background-repeat: none;
+        }
+    </style>
+    <h1>Conciertos</h1>
+    <nav>
+        <a href="../ProyectoInterfaz/index.html">Inicio</a>
+        <a href="../ProyectoInterfaz/biografia.html">Biografía</a>
+        <a href="../ProyectoInterfaz/conciertos.html">Conciertos</a>
+        <a href="../ProyectoInterfaz/musica.html">Música</a>
+        <a href="../ProyectoInterfaz/videos.html">Videos</a>
+        <a href="../ProyectoInterfaz/galeria.html">Galería</a>
+    </nav>
+    </header>
+    <main>
+        <section>
+        <h2>Próximos conciertos</h2>
+        <table class="tabla-simple">
+        <tr>
+            <th>Fecha</th>
+            <th>Ciudad</th>
+            <th>Lugar</th>
+            <th>País</th>
+        </tr>
+
+        <tr>
+            <td>23 Abril 2026</td>
+            <td>Puebla</td>
+            <td>Auditorio GNP</td>
+            <td>México</td>
+        </tr>
+            
+        <tr>
+            <td>09 Mayo 2026</td>
+            <td>Medellin</td>
+            <td>Teatro Diana</td>
+            <td>Colombia</td>
+        </tr>
+
+        <tr>
+            <td>28 Abril 2026</td>
+            <td>Santiago</td>
+            <td>Movistar Arena</td>
+            <td>Chile</td>
+        </tr>
+        
+        <section>
+    <h2>Gira Internacional</h2>
+    <table class="tabla-zebra">
+
+        <tr>
+            <th>Fecha</th>
+            <th>Ciudad</th>
+            <th>Evento</th>
+        </tr>
+
+        <tr>
+            <td>10 Mayo</td>
+            <td>Buenos Aires</td>
+            <td>Festival Latino</td>
+        </tr>
+
+        <tr>
+            <td>18 Mayo</td>
+            <td>Lima</td>
+            <td>Concierto Especial</td>
+        </tr>
+        <tr>
+            <td>25 Mayo</td>
+            <td>Bogotá</td>
+            <td>Festival Cultural</td>
+        </tr>
+        <tr>
+            <td>30 Mayo</td>
+            <td>Madrid</td>
+            <td>Tour Europa</td>
+        </tr>
+    </table>
+    </section>
+    </table>
+    </section>
+
+
+    <section>
+    <h2>Conciertos en México</h2>
+    <table class="tabla-hover">
+        <tr>
+            <th>Ciudad</th>
+            <th>Lugar</th>
+            <th>Capacidad</th>
+        </tr>
+
+        <tr>
+            <td>Puebla</td>
+            <td>Auditorio Metropolitano</td>
+            <td>4500</td>
+        </tr>
+
+        <tr>
+            <td>Monterrey</td>
+            <td>Auditorio Citibanamex</td>
+            <td>8000</td>
+        </tr>
+
+        <tr>
+            <td>Tijuana</td>
+            <td>Plaza Monumental</td>
+            <td>12000</td>
+        </tr>
+   </table>
+    </section>
+
+
+    <section>
+    <h2>Fechas del Tour</h2>
+    <table class="tabla-colspan">
+        <tr>
+            <th colspan="3">Tour Latinoamérica</th>
+        </tr>
+
+        <tr>
+            <th>Fecha</th>
+            <th>Ciudad</th>
+            <th>País</th>
+        </tr>
+        <tr>
+            <td>5 Junio</td>
+            <td>Quito</td>
+            <td>Ecuador</td>
+        </tr>
+
+        <tr>
+            <td>10 Junio</td>
+            <td>La Paz</td>
+            <td>Bolivia</td>
+        </tr>
+    </table>
+    </section>
+
+    <section>
+    <h2>Compra de boletos</h2>
+    <form class="formulario-boletos">
+    
+    <label for="concierto">Selecciona el concierto</label>
+    <select id="concierto" name="concierto">
+        <option>Ciudad de México - Auditorio Nacional</option>
+        <option>Guadalajara - Teatro Diana</option>
+        <option>Santiago - Movistar Arena</option>
+        <option>Puebla - Auditorio Metropolitano</option>
+    </select>
+    
+    <label for="boletos">Cantidad de boletos</label>
+    <input type="number" id="boletos" name="boletos">
+    <label for="pago">Método de pago</label>
+    <select id="pago" name="pago">
+        <option>Tarjeta de crédito</option>
+        <option>Tarjeta de débito</option>
+        <option>Transferencia bancaria</option>
+    </select>
+       
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono">
+
+        <label for="direccion">Dirección</label>
+        <input type="text" id="direccion" name="direccion">
+
+        <label for="ciudad">Ciudad</label>
+        <input type="text" id="ciudad" name="ciudad">
+
+    <button type="submit">Comprar boletos</button>
+    </form>
+
+    <section class="alineacion-centrada box-links">
+        <a href="#biografia"><img src="../ml_Img/flecha.png" alt="flecha"></a>
+    </section>
+   
+    </section>
+    </main>
+
+    <footer>
+        <p>Elaborado por Diego Braulio Castro Hernandez</p>
+   </footer>
+
+    </body>
+    </html>

@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+main{
+    padding: 60px;
+    text-align: center;
+}
+main section{
+    width: 60%;
+    background-color: var(--color-acento);
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    color: var(--color-fondo);
+}
+main section h2{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+main section p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    color:white;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.albumes{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:40px;
+    padding:40px;
+}
+
+.album{
+    background:#2a2a2a;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    width:300px;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: px;
+}
+.foto-medio{
+    width: 520px;
+    height: 320px;
+    margin-bottom: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+table{
+width:80%;
+margin:30px auto;
+border:1px solid black;
+}
+
+th, td{
+padding:10px;
+text-align:center;
+border:1px solid black;
+}
+
+.tabla-simple{
+border-collapse:collapse;
+}
+
+.tabla-zebra tr:nth-child(even){
+background:#e0b1cb;
+}
+
+.tabla-hover tr:hover{
+background:#e0b1cb;
+cursor:pointer;
+}
+
+.tabla-colspan{
+border-collapse:collapse;
+background:#ffc8dd;
+color: black
+}
+
+h2{
+text-align:center;
+margin-top:40px;
+}
+.formulario-boletos{
+width:60%;
+margin:40px auto;
+display:flex;
+flex-direction:column;
+gap:10px;
+background:#e3f2fd;
+padding:20px;
+border-radius:10px;
+    color: black
+}
+
+.formulario-boletos input,
+.formulario-boletos select,
+.formulario-boletos textarea{
+padding:8px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.formulario-boletos button{
+margin-top:10px;
+padding:10px;
+background:#0077b6;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.formulario-boletos button:hover{
+background:#b0256d;
+}
